@@ -1,6 +1,6 @@
 import logging
-import sentry_sdk
 
+import sentry_sdk
 from chalice import Chalice, IAMAuthorizer
 from sentry_sdk.integrations.chalice import ChaliceIntegration
 
