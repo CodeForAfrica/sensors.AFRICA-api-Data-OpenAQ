@@ -1,0 +1,3 @@
+awscurl==0.21
+chalice==1.21.4
+pre-commit==2.9.2

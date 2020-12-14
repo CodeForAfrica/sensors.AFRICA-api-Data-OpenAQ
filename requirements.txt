@@ -1,0 +1,5 @@
+arrow==0.17.0
+gspread==3.6.0
+python-dotenv==0.15.0
+requests==2.25.0
+sentry-sdk==0.19.4
