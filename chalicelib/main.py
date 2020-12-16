@@ -194,8 +194,7 @@ def run(app):
         api_parameters["count"] = api_parameters["count"] + data_count
         api_parameters["last_end_date"] = start_time.isoformat()
         api_parameters["last_count"] = data_count
-        app.log.debug("FINISHED %s", api_parameters)
-    #     sheet.save(api_parameters)
+        sheet.save(api_parameters)
     else:
         app.log.warn("Missing API parameters")
 
